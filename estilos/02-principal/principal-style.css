@@ -1,0 +1,57 @@
+@import url(../00-geral/geral-style.css);
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.principal__descricao{
+    width: 520px;
+    height: 345px;
+    background-color: rgba(242, 227, 213, 0.6);
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.principal__descricao > p{
+    color: #024959;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.principal__descricao > a{
+    background-color: #012E40;
+    color: rgb(252, 252, 252);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: .6s;
+    font-family: Genera;
+    border: 1px solid #012E40;
+    text-decoration: none;
+}
+
+.principal__descricao > a:hover{
+    border: 1px solid #012E40;
+    background-color: rgba(242, 227, 213, 0.6);
+    color: #012E40;
+}
+
+.principal__ilustracao{
+    margin-top: 40px;
+}
+
+@media (max-width: 550px){
+
+    .principal__descricao{
+        height: auto;
+        width: 80%;
+    }
+}

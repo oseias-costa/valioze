@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprimeiro_site_gatsby=self.webpackChunkprimeiro_site_gatsby||[]).push([[682],{4633:function(e,t,n){n.r(t);var r=n(7294),a=n(1082);t.default=function(){return r.createElement("div",null,r.createElement(a.rU,{to:"/about"},"About"),r.createElement(a.rU,{to:"/contact"},"Contact"),r.createElement("h1",null,"About"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-a6d36505af960f419120.js.map

@@ -1,0 +1,55 @@
+@import url(../00-geral/geral-style.css);
+
+
+header{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    font-family: Genera;
+    text-decoration: none;
+    color: #012E40;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    transition: .6s;
+    margin-left: 20px;
+}
+
+li > a:hover{
+    color: #3CA6A6;
+}
+
+
+
+.hearder__botao{
+    background-color: #520000;
+    color: rgb(252, 252, 252);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 25px;
+    transition: .6s;
+    border: 1px solid #520000;
+}
+
+.hearder__botao:hover{
+    background-color:rgb(252, 252, 252);
+    color: #520000;
+}
+
+@media (max-width: 550px){
+    nav{
+        display: none;
+    }
+}

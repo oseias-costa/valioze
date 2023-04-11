@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprimeiro_site_gatsby=self.webpackChunkprimeiro_site_gatsby||[]).push([[501],{5791:function(t,e,n){n.r(e);var r=n(7294),a=n(1082);e.default=function(){return r.createElement("div",null,r.createElement(a.rU,{to:"/about"},"About"),r.createElement(a.rU,{to:"/contact"},"Contact"),r.createElement("h2",null,"Contato do Site: Texto"))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-f57db750b61c4c21be92.js.map

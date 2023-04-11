@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Genera;
+    font-display: swap;
+    src: url(fontes/Genera-AltLight.ttf);
+}
+
+@font-face {
+    font-family: theboldfont;
+    font-display: swap;
+    src: url(fontes/THEBOLDFONT.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    font-family: theboldfont;
+    color: #026773;
+    font-size: 44.4px;
+    display: inline;
+}
+
+h2 {
+    font-family: theboldfont;
+    color: #3f3d5679;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: theboldfont;
+    color: #026773;
+    font-size: 24px;
+}
+
+p {
+    font-family: Genera;
+}
+
+.destaque{
+    color: #012E40;
+}
+
+@media (max-width: 550px){
+    h1{
+        font-size: 36px;
+    }
+}

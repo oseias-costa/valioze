@@ -1,0 +1,70 @@
+.titulo{
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background: rgb(10,15,105);
+    background: linear-gradient(90deg, rgba(10,15,105,1) 21%, rgba(44,151,219,1) 85%);
+}
+
+.titulo > h2 {
+    color: white;
+}
+.clinica__moinhos{
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+}
+
+.logo_grande{
+    padding: 35px;
+}
+
+.descricao_clinica{
+    text-align: justify;
+    margin-bottom: 30px;
+    max-width: 360px; 
+}
+
+.img_sessao{
+    margin: 30px;
+}
+
+@media (max-width: 1000px) and (min-width: 601px){
+    .clinica__moinhos{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .descricao_clinica{
+        margin-right: 80px;
+        margin-left: 80px;
+        text-align: justify;
+        max-width: 440px; 
+    }
+    .clinica__moinhos > div{
+        text-align: center;
+    }
+
+    .logo_grande{
+        width: 500px;
+    }
+}
+    @media (max-width: 601px){
+        .clinica__moinhos{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+        .descricao_clinica{
+            text-align: justify;
+            margin-right: 40px;
+            margin-left: 40px;           
+        }
+        .clinica__moinhos > div{
+            text-align: center;
+        }
+        .logo_grande{
+            width: 350px;
+        }
+}

@@ -1,0 +1,41 @@
+@import url(../00-geral/geral-style.css);
+
+footer{
+    padding-top: 40px;
+    height: 150px;
+    background-color: #012E40;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.footer__contato > p{
+    font-size: 12px;
+}
+
+.footer__link, .footer__link > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    font-family: Genera, sans-serif;
+    margin-bottom: 5px;
+}
+@media (max-width: 650px){
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+    .footer__link{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer__contato{
+        padding-bottom: 30px;
+    }
+}

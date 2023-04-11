@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[969],{5969:function(_){_.exports={style:{fontFamily:"'__Quicksand_818969', '__Quicksand_Fallback_818969'",fontStyle:"normal"},className:"__className_818969"}}}]);

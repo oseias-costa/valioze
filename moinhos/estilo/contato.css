@@ -1,0 +1,100 @@
+
+section {
+    padding-top: 30px;
+}
+
+section:last-of-type{
+    padding-bottom: 60px;
+    display: block;
+    text-align: center;
+}
+
+.titulo{
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background: rgb(10,15,105);
+    background: linear-gradient(90deg, rgba(10,15,105,1) 21%, rgba(44,151,219,1) 85%);
+}
+
+.titulo > h2 {
+    color: white;
+}
+
+.contato__bloco{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contato__bloco > h5 {
+    padding-top: 5px;
+}
+
+.botao{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.img-clinica{
+    width: 400px;
+}
+
+p.contato__p{
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) and (min-width: 601px){
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .contato__bloco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h5.form_contato{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    
+    }
+
+
+}
+    @media (max-width: 601px){
+
+        section{
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+    
+        .contato__bloco{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    
+        h5.form_contato{
+            margin-top: 15px;
+            margin-bottom: 25px;
+        
+        }
+        .img-clinica{
+            width: 300px;
+        }
+
+        h2{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+   
+}
